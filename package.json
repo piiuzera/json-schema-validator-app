@@ -1,0 +1,13 @@
+{
+  "name": "json-schema-validator-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "mocha --recursive ./v*/tests/",
+    "start": "node Server.js",
+    "build": "npm run test && npm run start"
+  },
+  "author": "Matheus Neiva (mneiva@ciandt.com)",
+  "license": "ISC"
+}
