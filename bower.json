@@ -1,0 +1,21 @@
+{
+  "name": "json-schema-validator-app",
+  "description": "",
+  "main": "Server.js",
+  "authors": [
+    "Matheus Neiva (mneiva@ciandt.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/piiuzera/json-schema-validator-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2"
+  }
+}

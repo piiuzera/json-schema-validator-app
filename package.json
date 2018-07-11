@@ -9,5 +9,14 @@
     "build": "npm run test && npm run start"
   },
   "author": "Matheus Neiva (mneiva@ciandt.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "run-sequence": "^2.2.1"
+  }
 }
